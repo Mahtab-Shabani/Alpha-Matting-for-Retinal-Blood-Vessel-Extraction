@@ -22,6 +22,5 @@ Ivessel=Ivessel.*double(imgmsk);
 
 %% Alpha matting
 demo_matting;
-% Bin = computAUC(alpha, manu,  mask , Omask)
 computAUC(alpha, manu,  mask , Omask)
-% computAUC
+
