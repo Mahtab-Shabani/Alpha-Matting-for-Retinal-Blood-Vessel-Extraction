@@ -7,10 +7,9 @@ A technique called alpha matting is used to extract a softly bordered foreground
 
 The used source code for Alpha Matting is extracted from the following paper: 
 
-author = {Yuanjie Zheng and Chandra Kambhamettu}, \n
+author = {Yuanjie Zheng and Chandra Kambhamettu}, </br>
 title = {Learning Based Digital Matting},
-booktitle = {The 20th IEEE International Conference on Computer Vision},
-
+booktitle = {The 20th IEEE International Conference on Computer Vision},</br>
 year = {2009},
 month = {September--October}
 }
