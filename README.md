@@ -8,7 +8,7 @@ A technique called alpha matting is used to extract a softly bordered foreground
 I(x, y) = alpha(x,y)F(x,y) + (1 - alpha(x,y)) B(x,y))
 ```
  
-Where F is foreground, B is Background, and alpha ranges from 0 to 1. If alpha = 1 (or 0), it means that I(x, y) is in the foreground (or background). While alpha is a fractional value between (0, 1), these pixels are mixed. The trimap may be manually specified by the user, or produced by other binary segmentation approaches. In this work, to create trimap we used Hessian Matrix (Frangi, et al) for foreground and CLHAE for mixed pixels.
+Where F is foreground, B is Background, and alpha ranges from 0 to 1. If alpha = 1 (or 0), it means that I(x, y) is in the foreground (or background). While alpha is a fractional value between (0, 1), these pixels are mixed. The trimap may be manually specified by the user, or produced by other binary segmentation approaches. In this work, to create trimap we used Hessian Matrix (Frangi, et al) for the foreground and CLHAE (Contrast-limited adaptive histogram equalization) for mixed pixels.
 
 
 The source code for Alpha Matting in this repository is extracted from the following paper: 
